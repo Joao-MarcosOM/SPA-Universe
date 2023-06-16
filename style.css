@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+    align-items: center;
+    height: 12.2rem;
+    padding-left: 7.2rem;
+}
+
+nav a{
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    color: #C4C4CC;
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
